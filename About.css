@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial;
+}
+
+.header {
+    height: 60px;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.header li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header li a:hover {
+    color: #3bcfcb;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header ul li {
+    color: red;
+}
+.header ul:last-child{
+    margin-right: 100px;
+}
+body {
+    padding-top: 60px; 
+}
+
+.img-logo {
+    position: relative;
+    width: 31px;
+    height: 25px;
+}
+
+.img-logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.banner{
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 310px; 
+    background-color: #e9e9e9;
+}
+.banner .image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+
+}
+.banner .image img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0.8; 
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+    z-index: 1;
+}
+
+.text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+.Numbers{
+    height: 250px;
+    background-color: #10c9c3;
+    display: flex;
+}
+.Numbers .Number-1{
+    width: 25%;
+    height: 100%;
+    color: white;
+}
+.Numbers .Number-1 i{
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 80px;
+    position: relative;
+}
+.Numbers .Number-icon{
+    display: inline-block;
+}
+.Numbers .Number-text{
+    display: inline-block;
+    height: 100%;
+    margin-left: 50px;
+}
+.About {
+    width: 100%;
+    height: 580px;
+    background-color: #f6f6f6;
+    display: flex;
+}
+
+.About .About-me {
+    margin-top: 100px;
+    text-align: left;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.About-me h2 {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.About-me p {
+    line-height: 1.4em;
+    opacity: 0.4;
+}
+.About .image{
+    width: 50%;
+    height: 100%;
+}
+.About .image img{
+    width: 100%;
+    height: 100%;
+}
+.Need-a-Project{
+    height: 400px;
+}
+.Need-a-Project .text{
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+}
+.Need-a-Project .text h2{
+    color: black;
+}
+.Need-a-Project .button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Need-a-Project .button button {
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: #10c9c3; /* Màu nền nút */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.Need-a-Project .button button:hover {
+    background-color: #0da8a1; /* Màu nền nút khi hover */
+}
+footer {
+    height: 280px;
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+footer .content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.content .content-1,
+.content .content-2,
+.content .content-3,
+.content .content-4,
+.content .content-5{
+    width: 20%;
+    text-decoration: none;
+    height: 100%;
+}
+.content .content-1{
+    margin-left: 50px;
+}
+.content .content-1 p{
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.content .content-2 a,
+.content .content-3 a,
+.content .content-4 a,
+.content .content-5 a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    
+}
+.content .content-2{
+    padding-left: 100px;
+}
+.content .content-3{
+    padding-left: 200px;
+}
+.content .content-4{
+    padding-left: 30px;
+}
+.content .content-2 ul,
+.content .content-3 ul,
+.content .content-4 ul,
+.content .content-5 ul{
+    list-style-type: none;
+}
+
+
